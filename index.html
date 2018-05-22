@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+    <title>Alice App</title>
+</head>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-image: url("milky-way.jpg");
+    }
+
+    .container {
+
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
+        background-color: #ffffff;
+
+
+    }
+
+    .container-wrapper {
+
+        margin: 0 auto;
+        max-width: 500px;
+        overflow: hidden;
+        
+    }
+
+
+    .popup-header {
+       
+        color: #ffffff;
+        display: block;
+        background-color: #ffffff;
+        margin-top: 20px;
+    }
+
+    .popup-header .popup-wrapper {
+        margin: 0 auto;
+        max-width: 360px;
+    }
+
+    .popup-header .Thank-you-for-your-i {
+        font-family: Roboto-Medium;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.59;
+        letter-spacing: normal;
+        text-align: center;
+        color: #002836;
+        font-weight: 300;
+    }
+
+    .popup-header .text-style-1 {
+        font-family: Roboto-Light;
+    }
+
+    .popup-form {
+        margin-top: 37px;
+
+    }
+
+    .popup-form-wrapper {
+        margin: 0 auto;
+        max-width: 356px;
+        
+    }
+
+    .popup-form .col-group {
+
+        display: block;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .popup-form .col-group .col-group-left {
+        float: left;
+    }
+
+    .popup-form .col-group .col-group-right {
+        float: right;
+    }
+
+    .popup-form .col-group .full-width {
+
+        width: 99%;
+        overflow: hidden;
+    }
+
+    .popup-form .col-group input[type="text"] {
+        display: block;
+        margin-bottom: 10px;
+        height: 30px;
+        border: solid 1px #d8d8d8;
+        background-color: #ffffff;
+    }
+
+    .popup-form .col-group input {
+        /* width: 321px;
+        height: 16px; */
+        padding-left: 15px;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #979797;
+    }
+
+    .submit {
+        width: 350px;
+        height: 40px;
+        background-color: #f7295c;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        text-align: center;
+        border: none;
+        width: 100%;
+        margin-bottom:15px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="container-wrapper">
+            <div class="popup-header">
+                <div class="popup-wrapper">
+                    <div class="Thank-you-for-your-i">
+                        <h1>Thank you for your interest in ALICE!</h1>
+                    </div>
+                    <div class="Thank-you-for-your-i text-style-1">
+                        <h2>Schedule a Demo</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-form">
+                <div class="popup-form-wrapper">
+                    <form>
+                        <div class="col-group">
+                            <div class="col-group-left">
+                                <input type="text" placeholder="First NAME*" />
+                            </div>
+                            <div class="col-group-right">
+                                <input type="text" placeholder="LAST NAME*" />
+                            </div>
+                        </div>
+                        <div class="col-group">
+                            <input type="text" class="full-width" placeholder="EMAIL*" />
+                        </div>
+                        <div class="col-group">
+                            <div class="col-group-left">
+                                <input type="text" placeholder="PHONE*" />
+                            </div>
+                            <div class="col-group-right">
+                                <input type="text" placeholder="HOTEL/COMPANY*" />
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-group-submit">
+                        <input type="submit" class="submit mask" value="DOWNLOAD">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

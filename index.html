@@ -19,24 +19,23 @@
         background-image: url("milky-way.jpg");
     }
 
+    *{
+        box-sizing: border-box;
+    }
+
     .container {
 
         margin-top: 100px;
         margin-left: 150px;
         margin-right: 150px;
         background-color: #ffffff;
-
-
     }
 
     .container-wrapper {
-
         margin: 0 auto;
         max-width: 500px;
         overflow: hidden;
-        
     }
-
 
     .popup-header {
        
@@ -88,20 +87,28 @@
 
     .popup-form .col-group .col-group-left {
         float: left;
+        display: block;
+        width: 50%;
     }
 
     .popup-form .col-group .col-group-right {
         float: right;
+        display: block;
+        width: 50%;
     }
+
+
+
 
     .popup-form .col-group .full-width {
-
-        width: 99%;
-        overflow: hidden;
+        width: 100%;
     }
+
+
 
     .popup-form .col-group input[type="text"] {
         display: block;
+        overflow: hidden;
         margin-bottom: 10px;
         height: 30px;
         border: solid 1px #d8d8d8;
@@ -165,8 +172,8 @@
                                 <input type="text" placeholder="LAST NAME*" />
                             </div>
                         </div>
-                        <div class="col-group">
-                            <input type="text" class="full-width" placeholder="EMAIL*" />
+                        <div class="col-group" >
+                            <input type="text"  placeholder="EMAIL*" style="width: 100%" />
                         </div>
                         <div class="col-group">
                             <div class="col-group-left">
